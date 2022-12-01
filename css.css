@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.blog-1 .main-box .icon{
+    position: absolute;
+    top: -20px;
+    left: 12px;
+    width: 30px;
+    height: 38px;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media (min-width: 320px) and (max-width: 480px){
+   header .main-box{
+    display: inline-block;
+    width: 100%;
+   } 
+   header .main-box .logo{
+    width: 100%;
+    padding: 0px 5px;
+   }
+   header .main-box .logo img{
+    width: 30%;
+   }
+   header .main-box .logo .open-menu{
+    display: block;
+   }
+   header .main-box .form{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+   }
+   header .main-box .form input{
+    width: 75%;
+    font-size: 11px;
+   }
+   header .main-box .form button{
+    font-size: 11px;
+    width: 25%;
+   }
+
+   header nav .menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #cacaca;
+    width: 0%;
+    height: 100%;
+    transition: all 0.3s;
+    overflow-x: hidden;
+    z-index: 100;
+   }
+   header nav .menu .close-menu{
+    display: block;
+    margin: 10px;
+   }
+   header nav .menu ul li{
+    width: 100%;
+   }
+   header nav .menu ul li a{
+    color: #000000;
+    font-weight: 600;
+   }
+
+   .blog-1{
+    width: 100%;
+    padding: 5px;
+   }
+   .blog-1 .main-box{
+    display: inline-block;
+    width: 100%;
+   }
+   .blog-1 .main-box .col-span-2 .logo{
+    margin: auto;
+   }
+   .blog-1 .main-box .col-span-3,
+   .blog-1 .main-box .col-span-4{
+    border: none !important;
+    width: 100%;
+   }
+   .blog-1 .main-box .col-span-3 .link{
+    width: 100%;
+    display: inline-block;
+   }
+   .blog-1 .main-box .col-span-3 .link a{
+    width: 50%;
+    float: left;
+   }
+
+   .title{
+    text-align: center;
+    padding: 0px 5px;
+   }
+   .title h1{
+    font-size: 20px;
+   }
+   .title p{
+    font-size: 15px;
+   }
+
+   .blog-2,
+   .blog-3,
+   .blog-4,
+   .blog-5,
+   .blog-6{
+    width: 100%;
+    padding: 5px;
+   }
+   .blog-2 .row1,
+   .blog-2 .row2,
+   .blog-3 .row1,
+   .blog-3 .row2,
+   .blog-4 .row1,
+   .blog-4 .row2,
+   .blog-5 .row1,
+   .blog-5 .row2,
+   .blog-6 .row1,
+   .blog-6 .row2{
+    display: inline-block;
+    width: 100%;
+   }
+   .blog-2 .row2 a,
+   .blog-3 .row2 a,
+   .blog-4 .row2 a,
+   .blog-5 .row2 a,
+   .blog-6 .row2 a{
+    font-size: 12px;
+    color: #cc0000;
+   }
+   footer{
+    padding: 10px 0px !important;
+   }
+   footer .main-box{
+    display: inline-block;
+    padding: 0px 5px;
+   }
+   footer .main-box .col-span-6{
+    padding: 0px;
+   }
+}
+@media (min-width: 481px) and (max-width: 767px){
+   header .main-box{
+    display: inline-block;
+    width: 100%;
+   } 
+   header .main-box .logo{
+    width: 100%;
+    padding: 0px 5px;
+   }
+   header .main-box .logo img{
+    width: 25%;
+   }
+   header .main-box .logo .open-menu{
+    display: block;
+   }
+   header .main-box .form{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+   }
+   header .main-box .form input{
+    width: 75%;
+    font-size: 11px;
+   }
+   header .main-box .form button{
+    font-size: 11px;
+    width: 25%;
+   }
+
+   header nav .menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #cacaca;
+    width: 0%;
+    height: 100%;
+    transition: all 0.3s;
+    overflow-x: hidden;
+    z-index: 100;
+   }
+   header nav .menu .close-menu{
+    display: block;
+    margin: 10px;
+   }
+   header nav .menu ul li{
+    width: 100%;
+   }
+   header nav .menu ul li a{
+    color: #000000;
+    font-weight: 600;
+   }
+
+   .blog-1{
+    width: 100%;
+    padding: 5px;
+   }
+   .blog-1 .main-box{
+    display: inline-block;
+    width: 100%;
+   }
+   .blog-1 .main-box .col-span-2 .logo{
+    margin: auto;
+   }
+   .blog-1 .main-box .col-span-3,
+   .blog-1 .main-box .col-span-4{
+    border: none !important;
+    width: 100%;
+   }
+   .blog-1 .main-box .col-span-3 .link{
+    width: 100%;
+    display: inline-block;
+   }
+   .blog-1 .main-box .col-span-3 .link a{
+    width: 50%;
+    float: left;
+   }
+
+
+   .title{
+    text-align: center;
+    padding: 0px 5px;
+   }
+   .title h1{
+    font-size: 20px;
+   }
+   .title p{
+    font-size: 15px;
+   }
+
+   .blog-2,
+   .blog-3,
+   .blog-4,
+   .blog-5,
+   .blog-6{
+    width: 100%;
+    padding: 5px;
+   }
+   .blog-2 .row1,
+   .blog-2 .row2,
+   .blog-3 .row1,
+   .blog-3 .row2,
+   .blog-4 .row1,
+   .blog-4 .row2,
+   .blog-5 .row1,
+   .blog-5 .row2,
+   .blog-6 .row1,
+   .blog-6 .row2{
+    display: inline-block;
+    width: 100%;
+   }
+   .blog-2 .row1 .col-span-6,
+   .blog-2 .row2 .col-span-6,
+   .blog-3 .row1 .col-span-6,
+   .blog-3 .row2 .col-span-6,
+   .blog-4 .row1 .col-span-6,
+   .blog-4 .row2 .col-span-6,
+   .blog-5 .row1 .col-span-6,
+   .blog-5 .row2 .col-span-6,
+   .blog-6 .row1 .col-span-6,
+   .blog-6 .row2 .col-span-6{
+    width: 50%;
+    float: left;
+   }
+   .blog-2 .row1 .col-span-6 a,
+   .blog-2 .row2 .col-span-6 a,
+   .blog-3 .row1 .col-span-6 a,
+   .blog-3 .row2 .col-span-6 a,
+   .blog-4 .row1 .col-span-6 a,
+   .blog-4 .row2 .col-span-6 a,
+   .blog-5 .row1 .col-span-6 a,
+   .blog-5 .row2 .col-span-6 a,
+   .blog-6 .row1 .col-span-6 a,
+   .blog-6 .row2 .col-span-6 a{
+    font-size: 10px;
+   }
+   .blog-2 .row1 .col-span-6 p,
+   .blog-2 .row2 .col-span-6 p,
+   .blog-3 .row1 .col-span-6 p,
+   .blog-3 .row2 .col-span-6 p,
+   .blog-4 .row1 .col-span-6 p,
+   .blog-4 .row2 .col-span-6 p,
+   .blog-5 .row1 .col-span-6 p,
+   .blog-5 .row2 .col-span-6 p,
+   .blog-6 .row1 .col-span-6 p,
+   .blog-6 .row2 .col-span-6 p{
+    font-size: 10px;
+    margin: 0px;
+   }
+   .blog-2 .row1 .col-span-6 img,
+   .blog-2 .row2 .col-span-6 img,
+   .blog-3 .row1 .col-span-6 img,
+   .blog-3 .row2 .col-span-6 img,
+   .blog-4 .row1 .col-span-6 img,
+   .blog-4 .row2 .col-span-6 img,
+   .blog-5 .row1 .col-span-6 img,
+   .blog-5 .row2 .col-span-6 img,
+   .blog-6 .row1 .col-span-6 img,
+   .blog-6 .row2 .col-span-6 img{
+    padding: 10px 5px 5px 0px;
+   }
+   .blog-2 .row2 a,
+   .blog-3 .row2 a,
+   .blog-4 .row2 a,
+   .blog-5 .row2 a,
+   .blog-6 .row2 a{
+    font-size: 9px;
+    color: #cc0000;
+   }
+   footer{
+    padding: 10px 0px !important;
+   }
+   footer .main-box{
+    display: inline-block;
+    padding: 0px 5px;
+   }
+   footer .main-box .col-span-6{
+    padding: 0px;
+   }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    header .main-box,
+    .blog-1,
+    .blog-2,
+    .blog-3,
+    .blog-4,
+    .blog-5,
+    .blog-6{
+        padding: 0px 5px;
+    }
+    .blog-1 .main-box{
+        padding: 5px;
+    }
+    .blog-1 .main-box .col-span-4 h1{
+        font-size: 20px;
+    }
+    .blog-1 .main-box .col-span-4 p{
+        font-size: 15px;
+    }
+}
